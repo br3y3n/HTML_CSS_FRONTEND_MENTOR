@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+}
+
+body{
+    padding: 100px;
+}
+
+article{
+    display: flex;
+    gap: 8rem;
+    
+}
+
+article section h1{
+    width: 350px;
+    font-size: 55px;
+    color: rgb(94, 22, 161);
+    margin-bottom: 20px;
+}
+
+article section p{
+    width: 370px;
+    text-align: justify;
+    font-family: 'Franklin Gothic';
+}
+
+article section img{
+    width: 20px;
+    height: 20px;
+}
+
+article section div {
+    display: flex; 
+    align-items: center;
+    background-color: rgb(204, 204, 204, 0.4);
+    margin-bottom: 10px;
+    height: 60px;
+    border-radius: 10px;
+    width: 370px;
+}
+article section{
+    width: max-content;
+}
+article section div p{
+    margin-left: 20px;
+}
+
+.rated-1{
+    margin-left: 40px;
+}
+.rated-2{
+    margin-left: 80px;
+}
+
+.sec_people{
+    margin-top: 50px;
+    display: flex;
+    gap: 40px;
+}
+.sec_people aside{
+    background-color:rgb(94, 22, 161);
+    padding: 20px;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.sec_people aside div h2{
+    color: white;
+}
+.sec_people aside div h3{
+    color: rgb(180, 38, 241);
+}
+.sec_people p{
+    width: 290px;
+    color: white;
+    text-align: justify;
+    font-family: 'Franklin Gothic';
+    margin-top: 30px;
+}
+.sec_people div{
+    display: flex;
+    font-size: medium;
+    gap: 20px;
+}
+
+.sec_people aside div img {
+    border-radius: 50%;
+}
+
+.people-1{
+    margin-top: 40px;
+}
+
+.people-2{
+    margin-top: 80px;
+}

@@ -1,0 +1,157 @@
+
+*{
+    margin: 0%;
+}
+body{
+    padding: 30px;
+}
+.image-omelette{
+    width: 100%;
+    height: 400px;
+    border: 1px solid;
+}
+
+.title{
+   font-size: 50px;
+   margin-top: 20px;
+   margin-bottom: 10px;
+}
+
+.description{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.preparationTime {
+    background-color: rgba(248, 116, 143, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+  
+  }
+  
+  .titlePreparation {
+    color: rgb(205, 17, 55);
+    margin-left: 37px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .listPreparation {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 40px; 
+    list-style-type: disc; 
+  }
+  
+  .listPreparation li {
+    margin-bottom: 10px; 
+  }
+  
+  .listPreparation li h1 {
+    display: inline; 
+    font-size: 1.3rem; 
+    font-weight: bold;
+    margin-right: 10px; 
+  }
+  
+  .listPreparation li p {
+    display: inline; 
+    margin: 0; 
+  }
+  
+.ingredients{
+    padding: 10px;
+
+}
+.titleIngredients{
+    font-size: 35px;
+    color: rgb(154, 88, 23);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+
+.listIngredients{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.listIngredients, ul , li{
+    margin-bottom: 20px;
+    font-size: 1em;
+    color: #9d700d;
+} 
+.listIngredients, ul ,li h1 {
+    margin: 0%;
+    color: black;
+    font-size: medium;
+}
+
+.instructions{
+ padding: 10px;
+}
+
+.titleInstructions{
+    font-size: 35px;
+    color: rgb(154, 88, 23);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+
+.listInstructions{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 40px; 
+    
+}
+.listInstructions li{
+    margin-bottom: 10px;
+}
+
+
+.listInstructions li  h1{
+    display: inline; 
+    font-size: 1.3rem; 
+    font-weight: bold;
+    margin-right: 10px; 
+}
+.listInstructions li p {
+    display: inline; 
+    margin: 0; 
+    color: black;
+}
+.tableSection{
+    width: 80%;
+}
+
+.titleTable{
+    font-size: 35px;
+    color: rgb(154, 88, 23);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+
+.descriptionTable{
+    font-family: 'Franklin Gothic';
+    margin-bottom: 10px;
+}
+.nutrition-table {
+   border-collapse: collapse;
+    width: 100%;
+}
+
+.nutrition-table th,
+.nutrition-table td {
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+}
+
+.nutrition-table th {
+    background-color: #f0f0f0;
+}
+
+.titleClave{
+    font-family: 'Franklin Gothic';
+}
+
+.valor{
+    font-family: 'Franklin Gothic';
+    color: #9d700d;
+}

@@ -1,0 +1,77 @@
+*{
+    margin: 0%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+article{
+    display: flex;
+    box-shadow: 1px 1px 7px rgb(179, 179, 179);
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+article img{
+    width: 300px;
+}
+section{
+    padding: 30px;
+}
+.perfume{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.marca{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    width: 280px;
+    margin-bottom: 30px;
+}
+
+article section p{
+    width: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 30px;
+}
+
+article section div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+article section h3{
+    font-size: 40px;
+    color: #1a550c;
+} 
+
+article section h4 {
+    text-decoration: line-through;
+}
+section button div img{
+    width: 20px;
+    height: 20px;
+    transform: translateX(100px);
+}
+section button div{
+   display: flex;
+   align-items: center;
+}
+section button div p{
+    margin-top: 15px;
+}
+section button{
+    background-color: #1a550c;
+    color: white;
+    font-size: large;
+    height: 50px;
+    border-radius: 10px;
+}
